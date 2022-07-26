@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'emailauto.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'emailauto',
-        'USER': 'postgres',
-        'PASSWORD': 'Ajay#75',
-        'HOST': 'localhost'
+        'NAME': 'database name',
+        'USER': 'database user',
+        'PASSWORD': 'database password',
+        'HOST': 'database port'
     }
 }
 
